@@ -9,6 +9,6 @@ def index():
 
 @app.route("/home")
 def about():
-  summonerName = "pathrix" # there will be a search box and its data will be summoner name
-  print(getId(summonerName))
+  # summonerName = "pathrix" # there will be a search box and its data will be summoner name
+  # print(getId(summonerName))
   return "<h2> selam </h2>"
